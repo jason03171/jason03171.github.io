@@ -5,5 +5,9 @@ $(document).ready(function(){
     indicators: false,
     // 每張照片播五秒
     interval: 5000
+  }),
+  $('.sidenav').sidenav({
+    edge: 'right',
+    preventScrolling: false
   })
 })
