@@ -10,89 +10,108 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- home section -->
-  <header id="home" class="navbar-fixed">
-    <!-- banner slider -->
-    <div class="slider fullscreen">
-      <ul class="slides">
-        <li>
-          <img src="img/coding.jpg" alt="Background image of Jason">
-          <div class="caption right-align grey-text text-lighten-5">
-            <h3>Coding Is My Life</h3>
-            <h5>Looking for Web Developer?</h5>
-            <h5>Check my <a href="https://pda.104.com.tw/profile/share/3AtERfCtFfq2Y2oONCsoUGUzeRtL5II4">resume</a></h5>
-          </div>
-        </li>
-        <li>
-          <img src="img/scenery.jpg" alt="Background image of Jason">
-          <div class="caption center-align grey-text text-lighten-4">
-            <h3>Love Adventure</h3>
-            <h5>Embrace Challenges</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
-  
-    <!-- navbar -->
-    <nav>
-      <div class="container">
-        <a href="index.html" class="brand-logo">
-          <img src="img/jason_logo_light.png" alt="Jason's logo" class="responsive-img">
-        </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#Info">Info</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#project">Project</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <div id="app">
+    <!-- home section -->
+    <header id="home" class="navbar-fixed">
+      <!-- banner slider -->
+      <div class="slider fullscreen">
+        <ul class="slides">
+          <li>
+            <img src="img/coding.jpg" alt="Background image of Jason">
+            <div class="caption right-align grey-text text-lighten-5">
+              <h3>Coding Is My Life</h3>
+              <h5>Looking for Web Developer?</h5>
+              <h5>Check my <a href="https://pda.104.com.tw/profile/share/3AtERfCtFfq2Y2oONCsoUGUzeRtL5II4">resume</a></h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/scenery.jpg" alt="Background image of Jason">
+            <div class="caption center-align grey-text text-lighten-4">
+              <h3>Love Adventure</h3>
+              <h5>Embrace Challenges</h5>
+            </div>
+          </li>
         </ul>
       </div>
-    </nav>
-  </header>
-  
-  <!-- sidenav -->
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#Info">Info</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#project">Project</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    
+      <!-- navbar -->
+      <nav>
+        <div class="container">
+          <a href="index.html" class="brand-logo">
+            <img src="img/jason_logo_light.png" alt="Jason's logo" class="responsive-img">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Info">Info</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#Info">Info</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
 
-  <!-- info section -->
-  <section id="Info" class="section gray lighten-1 section-info">
-    <div class="container">
-      <div class="imgbox">
-        <img src="https://avatars.githubusercontent.com/u/36750440?s=400&u=b3b1c25f438907f1e6a255b0e5158fd707dbd644&v=4" alt="Jason's photo">
+    <!-- info section -->
+    <section id="Info" class="section gray lighten-1 section-info">
+      <div class="container">
+        <div class="imgbox">
+          <img src="https://avatars.githubusercontent.com/u/36750440?s=400&u=b3b1c25f438907f1e6a255b0e5158fd707dbd644&v=4" alt="Jason's photo">
+        </div>
+        <div class="info">
+          <h3>關於我</h3>
+          <p>
+            畢業於元智大學-資訊工程系
+            <br>
+            個性樂觀，勇於挑戰困難，也善於傾聽他人意見
+            <br>
+            人生至少一次不要害怕失敗
+            <br>
+            是我的人生哲學
+            <br>
+            <br>
+            我喜歡撰寫Web前端 / App前端，能夠及時看到成果會讓我很有成就感，同時也能培養自己的美觀及設計能力。
+          </p>
+        </div>
       </div>
-      <div class="info">
-        <h3>關於我</h3>
-        <p>
-          畢業於元智大學-資訊工程系
-          <br>
-          個性樂觀，勇於挑戰困難，也善於傾聽他人意見
-          <br>
-          人生至少一次不要害怕失敗
-          <br>
-          是我的人生哲學
-          <br>
-          <br>
-          我喜歡撰寫Web前端 / App前端，能夠及時看到成果會讓我很有成就感，同時也能培養自己的美觀及設計能力。
-        </p>
+    </section>
+    
+    <!-- experience section -->
+    <section id="experience" class="section section-ex">
+      <div class="container center">
+        <h3>工作經歷</h3>
+        <div class="experience-cards">
+          <template v-for="i in experience">
+            <div class="experience-card yellow lighten-2">
+              <h5 class="company">{{i.company}}</h4>
+              <h6 class="job">任職期間 : {{i.workyear}}</h6>
+              <h6 class="job">職務 : {{i.jobtitle}}</h6>
+              <div class="jobcontent">
+                <p>工作內容:</p>
+                <ul v-for="j in i.content">
+                  <li>{{j}}</li>
+                </ul>
+              </div>
+            </div>            
+          </template>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
   
-  <!-- experience section -->
-  <section id="experience" class="section teal section-ex">
-    <div class="container">
-      <h3 class="center">經歷</h3>
-    </div>
-  </section>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js' integrity='sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.9/vue.min.js' integrity='sha512-deBbW1lpMT6h3gvOzmeMPft4pf9CMGjCKc5jSNq2pMSjtkMPuELbd4N3LKXVq/t1t6qco4q3u/XguyqGqlOMjA==' crossorigin='anonymous'></script>
   <script src="js/materialize_init.js"></script>
   <script src="js/main.js"></script>
 </body>
