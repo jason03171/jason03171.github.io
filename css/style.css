@@ -322,3 +322,61 @@ nav {
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.2);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .section-project > .container {
+    height: 40vh;
+  }
+
+  .section-project > .container > .carousel {
+    margin-top: -30%;
+  }
+  
+  .section-project > .container > .carousel > .card {
+    width: 80%;
+    height: 40%;
+  }
+
+  .section-project > .container > .carousel > .card > 
+  .card-image > .card-title {
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+  }
+  .section-project > .container > .carousel > .card > 
+  .card-reveal {
+    padding-top: 20px;
+    
+  }
+
+  .section-project > .container > .carousel > .card > 
+  .card-reveal > .card-title {
+    font-size: 1.5rem;
+  }
+
+  .section-project > .container > .carousel > .card > 
+  .card-reveal > .card-title > i {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  .section-project > .container > .carousel > .card > 
+  .card-reveal ul {
+    margin-top: 4px;
+    list-style-type: circle;
+    text-align: left;
+
+  }
+
+  .section-project > .container > .carousel > .card > 
+  .card-reveal li {
+    font-size: 0.8rem;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .section-project > .container {
+    height: 50vh;
+  }
+}
