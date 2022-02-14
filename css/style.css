@@ -184,6 +184,121 @@ nav {
   text-align: left;
 }
 
+/* --------project page-------- */
+.section-project > .container {
+  height: 70vh;
+}
+
+.section-project > .container > .carousel {
+  margin-top: 40px;
+}
+
+.section-project > .container > .carousel > .card {
+  width: 600px;
+  height: 500px;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-image > .card-title {
+  top: 50%;
+  left: 50%;
+  bottom: unset;
+  padding: 5px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px #575555; 
+  border: 2px solid rgb(255,255,255);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;  
+}
+
+.section-project > .container > .carousel > .card > 
+.card-image:hover > .card-title{
+  opacity: 1;
+  transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-image:hover > .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+  transition: all .3s ease-in;
+  -webkit-transition: all .3 ease-in;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal {
+  padding-top: 50px;
+  background-image: url("../img/sky.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.15)
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal > span {
+  position: relative;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal > .card-title {
+  font-size: 2rem;
+  display: block;
+  text-align: left;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal > .card-title > i {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal ul {
+  margin-top: 10px;
+  list-style-type: circle;
+  text-align: left;
+
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal li {
+  font-size: 1.2rem;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal li > .fa-caret-right {
+  margin-left: 20px;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal > .card-reveal-icons {
+  margin-top: 8px;
+}
+
+.section-project > .container > .carousel > .card > 
+.card-reveal > .card-reveal-icons > a {
+  margin: 0 4px;
+}
+
+
 /* -------       RWD      ----------- */
 @media screen and (max-width: 1200px) {
 

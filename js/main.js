@@ -19,6 +19,22 @@ let data = {
         "處理公司產品方向及營運方向的工作"
       ]
     }
+  ],
+  projects : [
+    {
+      project_name : "Currency Converter",
+      image_src : "img/project1.png",
+      github_link : "https://github.com/jason03171/CurrencyConverter",
+      show_link : "https://jason03171.github.io/CurrencyConverter/",
+      project_content : ["Build with vue2","It's a simple project to practice vue"]
+    },
+    {
+      project_name : "profile resume",
+      image_src : "img/project2.png",
+      github_link : "https://github.com/jason03171/jason03171.github.io",
+      show_link : "https://jason03171.github.io/",
+      project_content : ["Binding data with vue2","write CSS with materialize"]
+    }
   ]
 };
 

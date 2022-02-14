@@ -5,7 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jason Hpmepage</title>
+  <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+  <!--Include Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!-- include materialize -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css' integrity='sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -106,6 +111,38 @@
         </div>
       </div>
     </section>
+
+    <!-- project section -->
+    <section id="project" class="section section-project blue lighten-4">
+      <div class="container center">
+        <h3>Side Project</h3>
+        
+        <div class="carousel">     
+          <template v-for="c in projects">
+            <div class="carousel-item card"> 
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" :src=c.image_src alt="project Photo">
+                <div class="overlay"></div>
+                <span class="card-title activator">{{c.project_name}}</span>
+              </div>
+              
+              <div class="card-reveal">
+                <div class="overlay"></div>
+                <span class="card-title white-text">{{c.project_name}}<i class="material-icons right">close</i></span>
+                <ul class="white-text" v-for = "pc in c.project_content">
+                  <li><i class="fas fa-caret-right">{{pc}}</i></li>
+                </ul>
+                <div class="card-reveal-icons">
+                  <a :href=c.github_link class="right btn-floating btn-small teal" target="_blank"><i class="fab fa-github"></i></a>
+                  <a :href=c.show_link class="right btn-floating btn-small teal" target="_blank"><i class="fas fa-home"></i></a>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>   
+    </section>
+
   </div>
   
 

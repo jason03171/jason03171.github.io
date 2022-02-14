@@ -9,5 +9,8 @@ $(document).ready(function(){
   $('.sidenav').sidenav({
     edge: 'right',
     preventScrolling: false,
+  }),
+  $('.carousel').carousel({
+    indicators: true
   });
 })
