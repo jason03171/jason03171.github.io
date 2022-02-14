@@ -33,7 +33,7 @@ let data = {
       image_src : "img/project2.png",
       github_link : "https://github.com/jason03171/jason03171.github.io",
       show_link : "https://jason03171.github.io/",
-      project_content : ["Binding data with vue2","write CSS with materialize","RWD Website"]
+      project_content : ["Binding data with vue2","write CSS with materialize","RWD Website","Use getform.io"]
     }
   ]
 };
