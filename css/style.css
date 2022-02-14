@@ -298,6 +298,26 @@ nav {
   margin: 0 4px;
 }
 
+/* --------contact page-------- */
+.section-contact > .container {
+  height: 50vh;
+}
+
+.section-contact > .container > .row {
+  height: auto;
+}
+
+.section-contact > .container > .row > .contact-info {
+  height: auto;
+}
+
+.section-contact > .container > .row > .contact-info h5 {
+  margin-bottom: 40px;
+}
+
+.section-contact > .container > .row > .contact-info h5,h6 {
+  text-align: left;
+}
 
 /* -------       RWD      ----------- */
 @media screen and (max-width: 1200px) {
@@ -334,7 +354,7 @@ nav {
   
   .section-project > .container > .carousel > .card {
     width: 80%;
-    height: 40%;
+    height: 50%;
   }
 
   .section-project > .container > .carousel > .card > 
@@ -346,7 +366,6 @@ nav {
   .section-project > .container > .carousel > .card > 
   .card-reveal {
     padding-top: 20px;
-    
   }
 
   .section-project > .container > .carousel > .card > 
