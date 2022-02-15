@@ -319,6 +319,12 @@ nav {
   text-align: left;
 }
 
+/* ---------footer-page--------- */
+.footer-links > a {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
 /* -------       RWD      ----------- */
 @media screen and (max-width: 1200px) {
 
